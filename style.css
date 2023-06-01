@@ -194,7 +194,6 @@ hr{
 .a1{
     width: 20%;
 }
-
 .desc{
     margin-left: 50px;
     letter-spacing: 2px;
@@ -203,8 +202,7 @@ hr{
 }
 #longline{
     margin-left: 50px;
-    width: 800px;
-    
+    width: 800px;  
 }
 .desc{
     padding-top: 20px;
@@ -216,9 +214,7 @@ hr{
 .prefer{
     margin-left: 50px;
     margin-right: 50px;
-  
     padding-bottom: 20px;
-
 }
 .prefer1{
     width: 350px;
@@ -329,9 +325,10 @@ hr{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    /* width: 300px; */
+    flex: auto;
+    margin-right: 30px;
+    margin-left: -80px;
 }
-  
 .dropdown-content a {
     float: none;
     color: black;
@@ -353,4 +350,8 @@ hr{
 }
 .dropdown{
     padding-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
