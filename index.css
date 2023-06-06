@@ -12,7 +12,7 @@
 {
     background-image:url(/assets/hero-img-3.jpg);
     width: 100%;
-    position: relative;
+    /* position: relative; */
     background-repeat: no-repeat;    
     background-size: cover;
     padding: 0px 30px 320px 30px;
